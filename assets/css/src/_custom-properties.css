@@ -1,0 +1,51 @@
+/**
+ * Custom Properties
+ * aka CSS variables.
+ *
+ * @link: https://developer.mozilla.org/en-US/docs/Web/CSS/--*
+ **/
+
+:root {
+	--global-background-color: #1d1d1d;
+	--global-background-color-alt: #333;
+	--global-border-color: #555;
+	--global-font-color: #fff;
+	--global-font-family: "Lora", serif;
+	--global-font-size: 16;
+	--global-font-line-height: 1.75;
+	--branding-font-color: #fff;
+	--branding-font-family: "Playfair Display", serif;
+	--highlight-font-color: #fff;
+	--highlight-font-family: "Playfair Display", serif;
+	--accent-font-family: "Lato", sans-serif;
+	--content-width: 44rem;
+	--dropdown-symbol-width: 0.7em;
+	--headerbar-background-color: #000;
+	--headerbar-font-color: #fff;
+	--headerbar-color-link: #fff;
+	--headerbar-color-link-active: #fff;
+
+	/* Custom editor colors */
+	--color-theme-primary: #e36d60;
+	--color-theme-secondary: #41848f;
+	--color-theme-red: #c0392b;
+	--color-theme-green: #27ae60;
+	--color-theme-blue: #2980b9;
+	--color-theme-yellow: #f1c40f;
+	--color-theme-black: #000;
+	--color-theme-grey: #95a5a6;
+	--color-theme-white: #fff;
+
+	--color-link: #fff;
+	--color-link-visited: var(--color-link);
+	--color-link-active: #fff;
+
+	/* Custom editor font sizes */
+	--font-size-small: calc(12 / var(--global-font-size) * 1rem);
+	--font-size-regular: calc(var(--global-font-size) / 16 * 1rem);
+	--font-size-large: calc(36 / var(--global-font-size) * 1rem);
+	--font-size-larger: calc(48 / var(--global-font-size) * 1rem);
+
+	/* Social icon size */
+	--social-icon-size: 1.5rem;
+}

@@ -1,0 +1,783 @@
+# Copyright (C) 2019 WP Rig
+# This file is distributed under the same license as the WP Rig package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Rig\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: The WP Rig Contributors\n"
+"Report-Msgid-Bugs-To: WP Rig\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: 1: title.
+#: comments.php:38
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:44
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: header.php:35
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:49, template-parts/header/navigation.php:48
+msgid "Close Menu"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: inc/back-compat.php:25
+msgid "WP Rig requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: inc/back-compat.php:30
+msgid "WP Rig requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: inc/back-compat.php:35
+msgid "WP Rig requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: inc/Theme.php:57
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: inc/Theme.php:120
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: inc/Accessibility/Component.php:69
+msgid "Expand child menu"
+msgstr ""
+
+#: inc/Accessibility/Component.php:70
+msgid "Collapse child menu"
+msgstr ""
+
+#: inc/Comments/Component.php:132
+msgid "New comment(s)"
+msgstr ""
+
+#: inc/CTA/Component.php:71
+msgid "CTA Button Label"
+msgstr ""
+
+#: inc/CTA/Component.php:72
+msgid "Enter a text to add a call-to-action button to your site."
+msgstr ""
+
+#: inc/CTA/Component.php:89
+msgid "CTA Button Link"
+msgstr ""
+
+#: inc/CTA/Component.php:90
+msgid "Choose a page the button should link to."
+msgstr ""
+
+#: inc/CTA/Component.php:108
+msgid "CTA Button URL"
+msgstr ""
+
+#: inc/CTA/Component.php:109
+msgid "Alternatively, enter a URL the button should link to."
+msgstr ""
+
+#: inc/Customizer/Colors.php:162
+msgid "Background Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:168
+msgid "Background Color (alt.)"
+msgstr ""
+
+#: inc/Customizer/Colors.php:174
+msgid "Font Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:180
+msgid "Link Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:186
+msgid "Link Active Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:192
+msgid "Branding Font Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:198
+msgid "Highlight Font Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:204
+msgid "Border Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:210
+msgid "Header Bar Background Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:216
+msgid "Header Bar Font Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:222
+msgid "Header Bar Link Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:228
+msgid "Header Bar Link Active Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:250
+msgid "Primary Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:256
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:262
+msgid "Red Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:268
+msgid "Green Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:274
+msgid "Blue Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:280
+msgid "Yellow Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:286
+msgid "Black Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:292
+msgid "Grey Color"
+msgstr ""
+
+#: inc/Customizer/Colors.php:298
+msgid "White Color"
+msgstr ""
+
+#: inc/Customizer/Component.php:95
+msgid "Theme Options"
+msgstr ""
+
+#: inc/Customizer/Fonts.php:108
+msgid "Fonts"
+msgstr ""
+
+#: inc/Customizer/Fonts.php:125
+msgctxt "font family annotation"
+msgid "(default)"
+msgstr ""
+
+#: inc/Customizer/Fonts.php:214
+msgid "Global Font Family"
+msgstr ""
+
+#: inc/Customizer/Fonts.php:220
+msgid "Branding Font Family"
+msgstr ""
+
+#: inc/Customizer/Fonts.php:226
+msgid "Highlight Font Family"
+msgstr ""
+
+#: inc/Customizer/Fonts.php:232
+msgid "Accent Font Family"
+msgstr ""
+
+#: inc/Customizer/Font_Style.php:66
+msgid "Transform site title and tagline to display in uppercase?"
+msgstr ""
+
+#: inc/Customizer/Font_Style.php:85
+msgid "Transform primary navigation to display in uppercase?"
+msgstr ""
+
+#: inc/Customizer/Footer_Info.php:56
+msgid "Footer Info"
+msgstr ""
+
+#: inc/Customizer/Footer_Info.php:57
+msgid "You can change the credit message displayed in the site footer here. Basic HTML tags are allowed."
+msgstr ""
+
+#: inc/Customizer/Front_Page.php:81
+msgid "Hide post header for front page?"
+msgstr ""
+
+#: inc/Customizer/Front_Page.php:82
+msgid "If checked, the front page title and meta information will be hidden."
+msgstr ""
+
+#: inc/Customizer/Front_Page.php:99
+msgid "Hide post footer for front page?"
+msgstr ""
+
+#: inc/Customizer/Front_Page.php:100
+msgid "If checked, the front page terms and edit link will be hidden."
+msgstr ""
+
+#: inc/Customizer/Post_Content_Toggles.php:97
+msgid "Content Types"
+msgstr ""
+
+#: inc/Customizer/Post_Content_Toggles.php:241
+msgid "Show Date?"
+msgstr ""
+
+#: inc/Customizer/Post_Content_Toggles.php:249
+msgid "Show Author?"
+msgstr ""
+
+#. translators: %s: the plural taxonomy label
+#: inc/Customizer/Post_Content_Toggles.php:276
+msgctxt "taxonomy terms"
+msgid "Show %s?"
+msgstr ""
+
+#: inc/Editor/Component.php:53
+msgctxt "color"
+msgid "Primary"
+msgstr ""
+
+#: inc/Editor/Component.php:58
+msgctxt "color"
+msgid "Secondary"
+msgstr ""
+
+#: inc/Editor/Component.php:63
+msgid "Red"
+msgstr ""
+
+#: inc/Editor/Component.php:68
+msgid "Green"
+msgstr ""
+
+#: inc/Editor/Component.php:73
+msgid "Blue"
+msgstr ""
+
+#: inc/Editor/Component.php:78
+msgid "Yellow"
+msgstr ""
+
+#: inc/Editor/Component.php:83
+msgid "Black"
+msgstr ""
+
+#: inc/Editor/Component.php:88
+msgid "Grey"
+msgstr ""
+
+#: inc/Editor/Component.php:93
+msgid "White"
+msgstr ""
+
+#: inc/Editor/Component.php:132
+msgid "Small"
+msgstr ""
+
+#: inc/Editor/Component.php:133
+msgid "S"
+msgstr ""
+
+#: inc/Editor/Component.php:138
+msgid "Medium"
+msgstr ""
+
+#: inc/Editor/Component.php:139
+msgid "M"
+msgstr ""
+
+#: inc/Editor/Component.php:144
+msgid "Large"
+msgstr ""
+
+#: inc/Editor/Component.php:145
+msgid "L"
+msgstr ""
+
+#: inc/Editor/Component.php:150
+msgid "Larger"
+msgstr ""
+
+#: inc/Editor/Component.php:151
+msgid "XL"
+msgstr ""
+
+#: inc/Editor/Component.php:167, inc/Editor/Component.php:177
+msgctxt "button style"
+msgid "Primary"
+msgstr ""
+
+#: inc/Editor/Component.php:171, inc/Editor/Component.php:181
+msgctxt "button style"
+msgid "Secondary"
+msgstr ""
+
+#: inc/Footer_Info/Component.php:57
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: inc/Footer_Info/Component.php:59
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: Theme name.
+#: inc/Footer_Info/Component.php:63
+msgid "Theme: %s"
+msgstr ""
+
+#. translators: %s: column number
+#: inc/Footer_Widget_Areas/Component.php:72
+msgid "Narrow Footer Column %s"
+msgstr ""
+
+#: inc/Footer_Widget_Areas/Component.php:74, inc/Footer_Widget_Areas/Component.php:89
+msgid "Add widgets here to appear in the footer."
+msgstr ""
+
+#. translators: %s: column number
+#: inc/Footer_Widget_Areas/Component.php:87
+msgid "Wide Footer Column %s"
+msgstr ""
+
+#: inc/Lazyload/Component.php:89
+msgid "Lazy-load on (default)"
+msgstr ""
+
+#: inc/Lazyload/Component.php:90
+msgid "Lazy-load off"
+msgstr ""
+
+#: inc/Lazyload/Component.php:111
+msgid "Lazy-load images"
+msgstr ""
+
+#: inc/Lazyload/Component.php:114
+msgid "Lazy-loading images means images are loaded only when they are in view. Improves performance, but can result in content jumping around on slower connections."
+msgstr ""
+
+#: inc/Nav_Menus/Component.php:80
+msgctxt "nav menu"
+msgid "Primary"
+msgstr ""
+
+#: inc/Nav_Menus/Component.php:81
+msgctxt "nav menu"
+msgid "Footer"
+msgstr ""
+
+#: inc/Nav_Menus/Component.php:82
+msgctxt "nav menu"
+msgid "Social"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:52
+msgctxt "starter content"
+msgid "Happy Hour: Mon-Fri 5PM"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:56
+msgctxt "starter content"
+msgid "Blueberry Pancakes"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:60
+msgctxt "starter content"
+msgid "A stack of four fluffy pancakes filled with blueberries, topped with warm blueberry compote and whipped cream."
+msgstr ""
+
+#: inc/Starter_Content/Component.php:64
+msgctxt "starter content"
+msgid "Two Eggs Any Style W/Housemade Sausage"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:68
+msgctxt "starter content"
+msgid "Choice of Pork-Lime Sausage or Chicken-Curry Sausage or Turkey Sausage."
+msgstr ""
+
+#: inc/Starter_Content/Component.php:72
+msgctxt "starter content"
+msgid "Spinach &amp; Mushroom Omelette"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:76
+msgctxt "starter content"
+msgid "Fresh spinach, mushrooms, onions and Swiss cheese, rolled into fluffy omelette and topped with hollandaise and fresh diced tomatoes."
+msgstr ""
+
+#: inc/Starter_Content/Component.php:80
+msgctxt "starter content"
+msgid "Breakfast"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:84, inc/Starter_Content/Component.php:110, inc/Starter_Content/Component.php:136, inc/Starter_Content/Component.php:162
+msgctxt "starter content"
+msgid "Chef's Pick"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:92
+msgctxt "starter content"
+msgid "Caramel Banana Waffles"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:96
+msgctxt "starter content"
+msgid "Belgian waffles topped with fresh banana slices, caramel sauce and powdered sugar."
+msgstr ""
+
+#: inc/Starter_Content/Component.php:106
+msgctxt "starter content"
+msgid "Soup &amp; Salad"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:118
+msgctxt "starter content"
+msgid "Pumpkin Soup"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:122, inc/Starter_Content/Component.php:148, inc/Starter_Content/Component.php:174
+msgctxt "starter content"
+msgid "Roasted Pumpkin and aromatic vegetables blended to a silky puree, with a touch of cream and a dash of cinnamon, nutmeg and allspice."
+msgstr ""
+
+#: inc/Starter_Content/Component.php:132
+msgctxt "starter content"
+msgid "Entrees"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:144
+msgctxt "starter content"
+msgid "Steak"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:158
+msgctxt "starter content"
+msgid "Desserts"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:170
+msgctxt "starter content"
+msgid "Key Lime Pie"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:189
+msgctxt "starter content"
+msgid "Our Story"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:194
+msgctxt "starter content"
+msgid "Menu"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:202
+msgctxt "starter content image"
+msgid "Bar"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:206
+msgctxt "starter content image"
+msgid "Pie"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:210
+msgctxt "starter content image"
+msgid "Soup"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:214
+msgctxt "starter content image"
+msgid "Steak"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:218
+msgctxt "starter content image"
+msgid "Waffles"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:228
+msgctxt "starter content"
+msgid "View Menu"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:236
+msgctxt "starter content"
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:249
+msgctxt "starter content"
+msgid "Social Menu"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:259
+msgctxt "starter content"
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:270
+msgctxt "starter content"
+msgid "Locations &amp; Hours"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:274
+msgctxt "starter content"
+msgid "San Francisco"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:275
+msgctxt "starter content"
+msgid "123 E Somewhere St.,"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:275
+msgctxt "starter content"
+msgid "San Francisco, CA"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:276, inc/Starter_Content/Component.php:295
+msgctxt "starter content"
+msgid "Mon-Thu 11am-2pm, 4pm-9pm"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:277
+msgctxt "starter content"
+msgid "Fri-Sun 11am-3pm, 4pm-12am"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:293
+msgctxt "starter content"
+msgid "San Jose"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:294
+msgctxt "starter content"
+msgid "123 S Elsewhere St.,"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:294
+msgctxt "starter content"
+msgid "San Jose, CA"
+msgstr ""
+
+#: inc/Starter_Content/Component.php:296
+msgctxt "starter content"
+msgid "Fri-Sun 11am-3pm, 4pm-11pm"
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: inc/Styles/Component.php:237
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#: template-parts/content/entry-attachment.php:33, template-parts/content/entry.php:32
+msgid "Previous:"
+msgstr ""
+
+#: template-parts/content/entry-attachment.php:43, template-parts/content/entry.php:33
+msgid "Next:"
+msgstr ""
+
+#: template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/content/entry_actions.php:21
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/content/entry_actions.php:40
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content/entry_content.php:18
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content/entry_content.php:31
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: post date
+#: template-parts/content/entry_meta.php:63
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author
+#: template-parts/content/entry_meta.php:76
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: template-parts/content/entry_meta.php:79
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: template-parts/content/entry_meta.php:95
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: template-parts/content/entry_meta.php:98
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#. translators: separator between taxonomy terms
+#: template-parts/content/entry_taxonomies.php:27
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: %s: list of taxonomy terms
+#: template-parts/content/entry_taxonomies.php:34
+msgid "Posted in %s"
+msgstr ""
+
+#. translators: %s: list of taxonomy terms
+#: template-parts/content/entry_taxonomies.php:40
+msgid "Tagged %s"
+msgstr ""
+
+#. translators: %s: taxonomy name
+#: template-parts/content/entry_taxonomies.php:47
+msgid "%s:"
+msgstr ""
+
+#: template-parts/content/error-404.php:16
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: template-parts/content/error-404.php:27
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: template-parts/content/error-404.php:45
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: template-parts/content/error-500.php:14
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content/error.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/error.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content/error.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %s: search query
+#: template-parts/content/page_header.php:41
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content/pagination.php:13
+msgctxt "previous set of search results"
+msgid "Previous"
+msgstr ""
+
+#: template-parts/content/pagination.php:14
+msgctxt "next set of search results"
+msgid "Next"
+msgstr ""
+
+#: template-parts/content/pagination.php:15
+msgid "Page navigation"
+msgstr ""
+
+#: template-parts/footer/widget_areas.php:19
+msgid "Footer Widgets"
+msgstr ""
+
+#: template-parts/header/main_navigation.php:11
+msgid "Main menu"
+msgstr ""
+
+#: template-parts/header/navigation.php:47
+msgid "Open Menu"
+msgstr ""
+
+#: template-parts/header/social_navigation.php:15
+msgid "Social Menu"
+msgstr ""

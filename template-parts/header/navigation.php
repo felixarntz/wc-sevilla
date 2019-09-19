@@ -33,11 +33,11 @@ if ( $main_navigation_active && wp_rig()->is_amp() ) {
 	<?php
 	if ( $main_navigation_active ) {
 		?>
-		<button class="menu-toggle" aria-controls="site-navigation" aria-expanded="false"
+		<button class="menu-toggle" aria-controls="site-sidebar" aria-expanded="false"
 			<?php
 			if ( wp_rig()->is_amp() ) {
 				?>
-				on="tap:AMP.setState( { siteNavigationMenu: { expanded: ! siteNavigationMenu.expanded } } )"
+				on="tap:AMP.setState( { siteNavigationMenu: { expanded: ! siteNavigationMenu.expanded } } ), site-sidebar.toggle"
 				[aria-expanded]="siteNavigationMenu.expanded ? 'true' : 'false'"
 				<?php
 			}
@@ -53,10 +53,6 @@ if ( $main_navigation_active && wp_rig()->is_amp() ) {
 
 	if ( ! has_header_image() || ! is_front_page() ) {
 		get_template_part( 'template-parts/header/branding' );
-	}
-
-	if ( $main_navigation_active ) {
-		get_template_part( 'template-parts/header/main_navigation' );
 	}
 	?>
 </div>

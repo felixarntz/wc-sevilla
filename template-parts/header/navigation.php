@@ -54,5 +54,18 @@ if ( $main_navigation_active && wp_rig()->is_amp() ) {
 	if ( ! has_header_image() || ! is_front_page() ) {
 		get_template_part( 'template-parts/header/branding' );
 	}
+
+	if ( $main_navigation_active && ! wp_rig()->is_amp() ) {
+		get_template_part( 'template-parts/header/main_navigation' );
+	}
 	?>
 </div>
+
+<?php
+if ( $main_navigation_active && wp_rig()->is_amp() ) {
+	?>
+	<amp-sidebar id="site-sidebar" class="site-sidebar" layout="nodisplay" side="left" on="sidebarClose:AMP.setState( { siteNavigationMenu: { expanded: false } } )" data-close-button-aria-label="<?php esc_attr_e( 'Close Menu', 'wp-rig' ); ?>">
+		<?php get_template_part( 'template-parts/header/main_navigation' ); ?>
+	</amp-sidebar>
+	<?php
+}

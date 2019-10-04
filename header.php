@@ -43,11 +43,3 @@ namespace WP_Rig\WP_Rig;
 		}
 		?>
 	</header><!-- #masthead -->
-	<?php
-	if ( wp_rig()->is_primary_nav_menu_active() || wp_rig()->is_social_nav_menu_active() ) {
-		?>
-		<amp-sidebar id="site-sidebar" class="site-sidebar" layout="nodisplay" side="left" on="sidebarClose:AMP.setState( { siteNavigationMenu: { expanded: false } } )" data-close-button-aria-label="<?php esc_attr_e( 'Close Menu', 'wp-rig' ); ?>">
-			<?php get_template_part( 'template-parts/header/main_navigation' ); ?>
-		</amp-sidebar>
-		<?php
-	}
